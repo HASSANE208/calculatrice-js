@@ -1,5 +1,5 @@
 // calculatrice.js
-// Calculatrice simple en JavaScript
+// Calculatrice Avancée v2.0 - Développée par l'équipe A
 
 function additionner(a, b) { return a + b; }
 function soustraire(a, b) { return a - b; }
