@@ -22,6 +22,17 @@ console.log('2^10 =', puissance(2, 10));
 // Attendu : 1024
 console.log('3^3 =', puissance(3, 3));       
 // Attendu : 27
+
+function racineCarree(n) {
+if (n < 0) {
+throw new Error('Impossible : racine carrée d un nombre négatif !');
+}
+return Math.sqrt(n);
+}
+console.log('√16 =', racineCarree(16));    
+// Attendu : 4
+console.log('√2 ≈', racineCarree(2));      
+// Attendu : 1.4142...
 // Ajouter cette fonction à calculatrice.js
 function modulo(a, b) {
     if (b === 0) {
