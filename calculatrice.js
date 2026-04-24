@@ -22,3 +22,14 @@ console.log('2^10 =', puissance(2, 10));
 // Attendu : 1024
 console.log('3^3 =', puissance(3, 3));       
 // Attendu : 27
+// Ajouter cette fonction à calculatrice.js
+function modulo(a, b) {
+    if (b === 0) {
+        throw new Error('Modulo par zéro impossible !');
+    }
+    return a % b;
+}
+// Tester la fonction
+console.log('10 % 3 =', modulo(10, 3));   // Attendu : 1
+console.log('15 % 4 =', modulo(15, 4));   // Attendu :
+
