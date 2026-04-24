@@ -25,3 +25,14 @@ console.log('√16 =', racineCarree(16));
 // Attendu : 4
 console.log('√2 ≈', racineCarree(2));      
 // Attendu : 1.4142...
+// Ajouter cette fonction à calculatrice.js
+function modulo(a, b) {
+    if (b === 0) {
+        throw new Error('Modulo par zéro impossible !');
+    }
+    return a % b;
+}
+// Tester la fonction
+console.log('10 % 3 =', modulo(10, 3));   // Attendu : 1
+console.log('15 % 4 =', modulo(15, 4));   // Attendu :
+
